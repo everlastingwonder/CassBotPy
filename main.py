@@ -56,7 +56,7 @@ async def on_message(message):
             log(logMsg)'''
 
     # System;Start #2
-    if "cassandra are you ready to begin" in message.content.lower():
+    if "are you ready to begin" in message.content.lower():
 
         # NOT WORKING ATM
         #if message.author.voice.voice_channel == None:
