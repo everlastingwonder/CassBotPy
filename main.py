@@ -36,7 +36,7 @@ async def on_message(message):
         #NOT WORKING ATM
         #if message.author.voice.voice_channel == None:
 
-        if true:
+        if True:
 
             await client.send_message(message.channel, "Yes.")
 
@@ -61,7 +61,7 @@ async def on_message(message):
         # NOT WORKING ATM
         #if message.author.voice.voice_channel == None:
 
-        if true:
+        if True:
             await client.send_message(message.channel, "Yes,")
             time.sleep(1)
             await client.send_message(message.channel, "I'm ready.")
